@@ -10,7 +10,6 @@ contract JuiceMoto {
     uint public fuelAmount;
     bool public isJuiceModeActive;
 
-    // Événements pour signaler les actions
     event OrangesLoaded(uint amount);
     event FuelAdded(uint amount);
     event JuiceModeInstalled();
