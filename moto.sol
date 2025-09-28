@@ -22,7 +22,7 @@ contract JuiceMoto {
         isJuiceModeActive = false;
     }
 
-    // Fonction pour charger la moto avec un nombre aléatoire d'oranges
+    // Fonction pour charger la moto avec un nombre aléatoire d'oranges et autres
     function loadOranges() public {
         uint randomOranges = uint(keccak256(abi.encodePacked(block.timestamp, block.prevrandao, msg.sender))) % 100 + 1; // Entre 1 et 100 oranges
         orangeCount += randomOranges;
