@@ -6,7 +6,6 @@
 pragma solidity ^0.8.0;
 
 contract JuiceMoto {
-    // État de la moto
     uint public orangeCount;
     uint public fuelAmount;
     bool public isJuiceModeActive;
